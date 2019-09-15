@@ -1,0 +1,47 @@
+
+
+
+ p{
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  
+  
+ 
+.img{
+  max-height: 100%;
+  max-width: 100%;
+}
+.ican-down{
+  color: white;
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+}
+.tem1{
+  background: #4CAF50;
+}
+.tem2{
+  background: brown;
+
+}
+.tem3{
+  background: aqua;
+}
+.tem4{
+  background: blueviolet;
+}
+.tem5{
+  background: darkgoldenrod;
+}
+.tem6{
+  background: deeppink;
+}

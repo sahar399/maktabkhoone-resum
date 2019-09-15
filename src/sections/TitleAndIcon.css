@@ -1,0 +1,24 @@
+.first {
+    background-color: blue ;
+    color: white ;
+  
+  }
+  
+  
+  .icon-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon{
+    margin:5px;
+    }
+    .navarbar{
+      width: 100%;
+      background-color: #555;
+      overflow: auto;
+      position: fixed;
+      z-index: 1000;
+    }
+   

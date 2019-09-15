@@ -1,0 +1,62 @@
+{
+    "title" : "Hello I'm Bahman!" ,
+    "subtitle": "Full Stack Dev | Open-Source Enthusiast " ,
+    "links" : {
+           "githab" : "https://github.com/sahar399" ,
+           "linkeding": "https://www.linkedin.com/in/sahar-b-087a589b/"
+    },
+    "sections": [
+        {
+            "title" : "About",
+            "items" :[
+                {
+                    "type": "p",
+                    "content" :"A programmer works according to the specifications provided by a systems analyst or senior programmer. After completing a program design, a programmer converts the design into a series of codes or instructions that the computer can run and execute, making use of a specific programming language and required platforms."
+                }
+            ]
+
+
+        },
+        {
+            "title" : "Skills",
+            "items" :[
+                {
+                    "type": "cart",
+                    "content" : {
+                        "image" : "react.png",
+                        "title" : "REACT"
+
+                    }
+                },
+                {
+                    "type": "cart",
+                    "content" : {
+                        "image" : "html.png",
+                        "title" : "HTML"
+
+                    }
+                },
+                {
+                    "type": "cart",
+                    "content" : {
+                        "image" : "css.png",
+                        "title" : "CSS"
+
+                    }
+                }
+            ]
+
+
+        }
+    ],
+    "icons":{
+        "down" :"arrowdown.png",
+        "top": "arrowtop.png",
+        "paint":"paint-brush.png"
+    },
+    "nav":{
+        "navtitle":"bahman",
+        "navabout":"about",
+        "navskill":"skill"    
+}
+}
