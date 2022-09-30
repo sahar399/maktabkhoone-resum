@@ -825,9 +825,9 @@
   integrity sha512-HOJ20Kc93DkDVvjwHyHawPwPkX44sIrbXazAUDiUXaY2R9JwQGo2PhFfnQtdrsIe4igjG2fPgMra7NYw7qhy0A==
 
 "@hapi/hoek@8.x.x":
-  version "8.2.1"
-  resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-8.2.1.tgz#924af04cbb22e17359c620d2a9c946e63f58eb77"
-  integrity sha512-JPiBy+oSmsq3St7XlipfN5pNA6bDJ1kpa73PrK/zR29CVClDVqy04AanM/M/qx5bSF+I61DdCfAvRrujau+zRg==
+  version "8.5.1"
+  resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-8.5.1.tgz#fde96064ca446dec8c55a8c2f130957b070c6e06"
+  integrity sha512-yN7kbciD87WzLGc5539Tn0sApjyiGHAJgKvG9W8C7O+6c7qmoQMfVs0W4bX17eqz6C78QJqqFrtgdK5EWf6Qow==
 
 "@hapi/joi@^15.0.0":
   version "15.1.0"
@@ -3813,6 +3813,11 @@ extsprintf@^1.2.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
   integrity sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
+
+faker@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/faker/-/faker-4.1.0.tgz#1e45bbbecc6774b3c195fad2835109c6d748cc3f"
+  integrity sha512-ILKg69P6y/D8/wSmDXw35Ly0re8QzQ8pMfBCflsGiZG2ZjMUNLYNexA6lz5pkmJlepVdsiDFUxYAzPQ9/+iGLA==
 
 fast-deep-equal@^2.0.1:
   version "2.0.1"
@@ -7877,6 +7882,16 @@ react-dev-utils@^9.0.3:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
+react-dom@^16.7.0:
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
+  integrity sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.19.1"
+
 react-dom@^16.9.0:
   version "16.9.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.9.0.tgz#5e65527a5e26f22ae3701131bcccaee9fb0d3962"
@@ -7896,6 +7911,13 @@ react-is@^16.8.1, react-is@^16.8.4:
   version "16.9.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.9.0.tgz#21ca9561399aad0ff1a7701c01683e8ca981edcb"
   integrity sha512-tJBzzzIgnnRfEm046qRcURvwQnZVXmuCbscxUO5RWrGTXpon2d4c8mI0D8WE6ydVIm29JiLB6+RslkIvym9Rjw==
+
+react-random@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/react-random/-/react-random-1.1.2.tgz#e959fd9960f1a6244593ec6db02fecd099c37c1b"
+  integrity sha512-6VTbrOHgBPl5Nq/hNBfiZzVU92UL36rLSsmHL4JlbToHgULU7R2WaZFdcTjqid7yomTVOu4gWvvr++nhWZ6yrw==
+  dependencies:
+    faker "^4.1.0"
 
 react-scripts@3.1.1:
   version "3.1.1"
@@ -7966,11 +7988,29 @@ react-scroll@^1.7.14:
     lodash.throttle "^4.1.1"
     prop-types "^15.5.8"
 
+react-snowstorm@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/react-snowstorm/-/react-snowstorm-0.0.3.tgz#ac459842dbe36babedc5b5f29c7e7b1dff6c8d49"
+  integrity sha512-czzsvaNdfVuDSrzoFfp4S8/cDvqGwoJhXIR+bwhoGV//nOq9PoezihvKzfm2fSPltvLSQydZ/dQbx6vvW231iw==
+  dependencies:
+    prop-types "^15.6.2"
+    react "^16.7.0"
+    react-dom "^16.7.0"
+
 react-social-icons@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/react-social-icons/-/react-social-icons-4.1.0.tgz#d8c1f846783cba15ae0e75704377bc67805f4c20"
   integrity sha512-wbwSbyS4QWjpL6U+GFZDBrE5Ao8px0QkRgo0XkxDHF2LNRsFNErSDnIPKiowhQ7t7IyrSA2HYrEw7ETgpVTg+Q==
   dependencies:
+    prop-types "^15.6.2"
+
+react@^16.7.0:
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
+  integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
     prop-types "^15.6.2"
 
 react@^16.9.0:
@@ -8429,6 +8469,14 @@ scheduler@^0.15.0:
   version "0.15.0"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.15.0.tgz#6bfcf80ff850b280fed4aeecc6513bc0b4f17f8e"
   integrity sha512-xAefmSfN6jqAa7Kuq7LIJY0bwAPG3xlCj0HMEBQk1lxYiDKZscY2xJ5U/61ZTrYbmNQbXa+gc7czPkVo11tnCg==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+
+scheduler@^0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.1.tgz#4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196"
+  integrity sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
